@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "urn:uuid:b84faf5c-4d9c-4778-a2ab-78cb8e07ab5a",
+    "type": "object",
+    "properties": {
+        "number": {
+            "type": "number"
+        },
+        "list_of_numbers": {
+            "type": "array", 
+            "items": {
+                "type": "number"
+            }
+        }
+    },
+    "required": ["number", "list_of_numbers"]
+}
